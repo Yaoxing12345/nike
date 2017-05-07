@@ -11,6 +11,8 @@ use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 use Illuminate\Support\Facades\Redirect;
 use Input;
+use Session;
+use Log;
 
 class AuthController extends Controller
 {
@@ -34,15 +36,12 @@ class AuthController extends Controller
      */
     protected $redirectTo = '/';
 
+
     /**
      * Create a new authentication controller instance.
      *
      * @return void
      */
-    public function __construct()
-    {
-        //$this->middleware('auth', ['except' => 'logout']);
-    }
 
     /**
      * Get a validator for an incoming registration request.
@@ -50,6 +49,9 @@ class AuthController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
+
+    protected $logFormat = 'className -->'.__CLASS__ .' Line No '.__LINE__;
+
     protected function validator(array $data)
     {
         return Validator::make($data, [
@@ -67,43 +69,57 @@ class AuthController extends Controller
     protected function createUser(Request $request)
     {
         $input = $request->all();
-        
+        Log::info($this->logFormat.' user sgetCurrencyConverterListubmited a request for creating a new user for email '.$input['email']);
         $valid = Validator::make($input, [
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|confirmed',
         ]);
 
         if($valid->fails()){
-            return Redirect::to('login')
-                ->withErrors($valid) // send back all errors to the login form
-                ->withInput(Input::except('password'));
+            Log::info($this->logFormat.' Validation got failed for '.$input['email'].' reason'.json_encode($valid->errors()));
+            return view('auth.register')->withErrors($valid)->withInput(Input::except('password'));
         }
 
-        return User::create([
-            'name'=>$input['name'],
-            'email' => $input['email'],
-            'password' => bcrypt($input['password']),
-        ]);
+        try{
+            $res =  User::create([
+                        'name'=>$input['name'],
+                        'email' => $input['email'],
+                        'password' => bcrypt($input['password']),
+                    ]);
+            Log::info($this->logFormat.' New user got succelly created for email '.$input['email']);
+            return Redirect::to('/login');        
+        }catch(\Exception $e){
+            Log::info($this->logFormat.' Exception ocuured while creating user record for email '.$input['email'].' reason'.print_r($e->getMessage(),true));
+            return view('auth.register')->withErrors('Oops Something went wrong');
+        }
+        
     }
 
     public function checkLogin(Request $request){
-        $input = $request->only(['email', 'password']);
+        $input = $request->only(['email', 'password','remember']);
+        Log::info($this->logFormat.' user trying to loing for email '.$input['email']);
         $valid = Validator::make($input, [
             'email' => 'required|email',
             'password' => 'required',
         ]);
-
-
+        
         if($valid->fails()){
-            return Redirect::to('login')
-                ->withErrors($valid) // send back all errors to the login form
-                ->withInput(Input::except('password'));
+            Log::info($this->logFormat.' Validation got failed for '.$input['email'].' reason'.json_encode($valid->errors()));
+           return view('auth.login')->withErrors($valid)->withInput(Input::except('password'));
         }
-        $remember = 1;
-        if (Auth::attempt(['email' => $input['email'], 'password' => $input['password']], $remember)) {
+    
+        $remember = 0;
+        if(isset($input['remember']) && !empty($remember))
+            $remember = 1;
+        
+        $res = Auth::attempt(['email' => $input['email'], 'password' => $input['password']], $remember);
+        if ($res) {
+            Log::info($this->logFormat.' user got succelly logged for email '.$input['email']);
             return redirect('currency-converter');
         }else{
-            return redirect('login')->withErrors('invalid credentials')->withInput($request->except(['password']));
+            Log::info($this->logFormat.' some problem occured while logging for email '.$input['email']);
+            Session::flash('message', 'The email/password combination is not valid ..!');
+            return redirect('/login');
         }
     }
 
