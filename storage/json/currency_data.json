@@ -1,0 +1,943 @@
+"symbol": "$",
+"name": "US Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "USD",
+"converstion_rate": "US dollars"
+
+"symbol": "CA$",
+"name": "Canadian Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "CAD",
+"conversion_rate": "Canadian dollars"
+
+"symbol": "€",
+"name": "Euro",
+"symbol_native": "€",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "EUR",
+"conversion_rate": "euros"
+
+"symbol": "AED",
+"name": "United Arab Emirates Dirham",
+"symbol_native": "د.إ.‏",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "AED",
+"conversion_rate": "UAE dirhams"
+
+"symbol": "Af",
+"name": "Afghan Afghani",
+"symbol_native": "؋",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "AFN",
+"conversion_rate": "Afghan Afghanis"
+
+"symbol": "ALL",
+"name": "Albanian Lek",
+"symbol_native": "Lek",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "ALL",
+"conversion_rate": "Albanian lekë"
+
+"symbol": "AMD",
+"name": "Armenian Dram",
+"symbol_native": "դր.",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "AMD",
+"conversion_rate": "Armenian drams"
+
+"symbol": "AR$",
+"name": "Argentine Peso",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "ARS",
+"conversion_rate": "Argentine pesos"
+
+"symbol": "AU$",
+"name": "Australian Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "AUD",
+"conversion_rate": "Australian dollars"
+
+"symbol": "man.",
+"name": "Azerbaijani Manat",
+"symbol_native": "ман.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "AZN",
+"conversion_rate": "Azerbaijani manats"
+
+"symbol": "KM",
+"name": "Bosnia-Herzegovina Convertible Mark",
+"symbol_native": "KM",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BAM",
+"conversion_rate": "Bosnia-Herzegovina convertible marks"
+
+"symbol": "Tk",
+"name": "Bangladeshi Taka",
+"symbol_native": "৳",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BDT",
+"conversion_rate": "Bangladeshi takas"
+
+"symbol": "BGN",
+"name": "Bulgarian Lev",
+"symbol_native": "лв.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BGN",
+"conversion_rate": "Bulgarian leva"
+
+"symbol": "BD",
+"name": "Bahraini Dinar",
+"symbol_native": "د.ب.‏",
+"decimal_digits": 3,
+"rounding": 0,
+"code": "BHD",
+"conversion_rate": "Bahraini dinars"
+
+"symbol": "FBu",
+"name": "Burundian Franc",
+"symbol_native": "FBu",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "BIF",
+"conversion_rate": "Burundian francs"
+
+"symbol": "BN$",
+"name": "Brunei Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BND",
+"conversion_rate": "Brunei dollars"
+
+"symbol": "Bs",
+"name": "Bolivian Boliviano",
+"symbol_native": "Bs",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BOB",
+"conversion_rate": "Bolivian bolivianos"
+
+"symbol": "R$",
+"name": "Brazilian Real",
+"symbol_native": "R$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BRL",
+"conversion_rate": "Brazilian reals"
+
+"symbol": "BWP",
+"name": "Botswanan Pula",
+"symbol_native": "P",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BWP",
+"conversion_rate": "Botswanan pulas"
+
+"symbol": "BYR",
+"name": "Belarusian Ruble",
+"symbol_native": "BYR",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "BYR",
+"conversion_rate": "Belarusian rubles"
+
+"symbol": "BZ$",
+"name": "Belize Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "BZD",
+"conversion_rate": "Belize dollars"
+
+"symbol": "CDF",
+"name": "Congolese Franc",
+"symbol_native": "FrCD",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "CDF",
+"conversion_rate": "Congolese francs"
+
+"symbol": "CHF",
+"name": "Swiss Franc",
+"symbol_native": "CHF",
+"decimal_digits": 2,
+"rounding": 0.05,
+"code": "CHF",
+"conversion_rate": "Swiss francs"
+
+"symbol": "CL$",
+"name": "Chilean Peso",
+"symbol_native": "$",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "CLP",
+"conversion_rate": "Chilean pesos"
+
+"symbol": "CN¥",
+"name": "Chinese Yuan",
+"symbol_native": "CN¥",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "CNY",
+"conversion_rate": "Chinese yuan"
+
+"symbol": "CO$",
+"name": "Colombian Peso",
+"symbol_native": "$",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "COP",
+"conversion_rate": "Colombian pesos"
+
+"symbol": "₡",
+"name": "Costa Rican Colón",
+"symbol_native": "₡",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "CRC",
+"conversion_rate": "Costa Rican colóns"
+
+"symbol": "CV$",
+"name": "Cape Verdean Escudo",
+"symbol_native": "CV$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "CVE",
+"conversion_rate": "Cape Verdean escudos"
+
+"symbol": "Kč",
+"name": "Czech Republic Koruna",
+"symbol_native": "Kč",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "CZK",
+"conversion_rate": "Czech Republic korunas"
+
+"symbol": "Fdj",
+"name": "Djiboutian Franc",
+"symbol_native": "Fdj",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "DJF",
+"conversion_rate": "Djiboutian francs"
+
+"symbol": "Dkr",
+"name": "Danish Krone",
+"symbol_native": "kr",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "DKK",
+"conversion_rate": "Danish kroner"
+
+"symbol": "RD$",
+"name": "Dominican Peso",
+"symbol_native": "RD$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "DOP",
+"conversion_rate": "Dominican pesos"
+
+"symbol": "DA",
+"name": "Algerian Dinar",
+"symbol_native": "د.ج.‏",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "DZD",
+"conversion_rate": "Algerian dinars"
+
+"symbol": "Ekr",
+"name": "Estonian Kroon",
+"symbol_native": "kr",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "EEK",
+"conversion_rate": "Estonian kroons"
+
+"symbol": "EGP",
+"name": "Egyptian Pound",
+"symbol_native": "ج.م.‏",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "EGP",
+"conversion_rate": "Egyptian pounds"
+
+"symbol": "Nfk",
+"name": "Eritrean Nakfa",
+"symbol_native": "Nfk",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "ERN",
+"conversion_rate": "Eritrean nakfas"
+
+"symbol": "Br",
+"name": "Ethiopian Birr",
+"symbol_native": "Br",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "ETB",
+"conversion_rate": "Ethiopian birrs"
+
+"symbol": "£",
+"name": "British Pound Sterling",
+"symbol_native": "£",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "GBP",
+"conversion_rate": "British pounds sterling"
+
+"symbol": "GEL",
+"name": "Georgian Lari",
+"symbol_native": "GEL",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "GEL",
+"conversion_rate": "Georgian laris"
+
+"symbol": "GH₵",
+"name": "Ghanaian Cedi",
+"symbol_native": "GH₵",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "GHS",
+"conversion_rate": "Ghanaian cedis"
+
+"symbol": "FG",
+"name": "Guinean Franc",
+"symbol_native": "FG",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "GNF",
+"conversion_rate": "Guinean francs"
+
+"symbol": "GTQ",
+"name": "Guatemalan Quetzal",
+"symbol_native": "Q",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "GTQ",
+"conversion_rate": "Guatemalan quetzals"
+
+"symbol": "HK$",
+"name": "Hong Kong Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "HKD",
+"conversion_rate": "Hong Kong dollars"
+
+"symbol": "HNL",
+"name": "Honduran Lempira",
+"symbol_native": "L",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "HNL",
+"conversion_rate": "Honduran lempiras"
+
+"symbol": "kn",
+"name": "Croatian Kuna",
+"symbol_native": "kn",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "HRK",
+"conversion_rate": "Croatian kunas"
+
+"symbol": "Ft",
+"name": "Hungarian Forint",
+"symbol_native": "Ft",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "HUF",
+"conversion_rate": "Hungarian forints"
+
+"symbol": "Rp",
+"name": "Indonesian Rupiah",
+"symbol_native": "Rp",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "IDR",
+"conversion_rate": "Indonesian rupiahs"
+
+"symbol": "₪",
+"name": "Israeli New Sheqel",
+"symbol_native": "₪",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "ILS",
+"conversion_rate": "Israeli new sheqels"
+
+"symbol": "Rs",
+"name": "Indian Rupee",
+"symbol_native": "টকা",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "INR",
+"conversion_rate": "Indian rupees"
+
+"symbol": "IQD",
+"name": "Iraqi Dinar",
+"symbol_native": "د.ع.‏",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "IQD",
+"conversion_rate": "Iraqi dinars"
+
+"symbol": "IRR",
+"name": "Iranian Rial",
+"symbol_native": "﷼",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "IRR",
+"conversion_rate": "Iranian rials"
+
+"symbol": "Ikr",
+"name": "Icelandic Króna",
+"symbol_native": "kr",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "ISK",
+"conversion_rate": "Icelandic krónur"
+
+"symbol": "J$",
+"name": "Jamaican Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "JMD",
+"conversion_rate": "Jamaican dollars"
+
+"symbol": "JD",
+"name": "Jordanian Dinar",
+"symbol_native": "د.أ.‏",
+"decimal_digits": 3,
+"rounding": 0,
+"code": "JOD",
+"conversion_rate": "Jordanian dinars"
+
+"symbol": "¥",
+"name": "Japanese Yen",
+"symbol_native": "￥",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "JPY",
+"conversion_rate": "Japanese yen"
+
+"symbol": "Ksh",
+"name": "Kenyan Shilling",
+"symbol_native": "Ksh",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "KES",
+"conversion_rate": "Kenyan shillings"
+
+"symbol": "KHR",
+"name": "Cambodian Riel",
+"symbol_native": "៛",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "KHR",
+"conversion_rate": "Cambodian riels"
+
+"symbol": "CF",
+"name": "Comorian Franc",
+"symbol_native": "FC",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "KMF",
+"conversion_rate": "Comorian francs"
+
+"symbol": "₩",
+"name": "South Korean Won",
+"symbol_native": "₩",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "KRW",
+"conversion_rate": "South Korean won"
+
+"symbol": "KD",
+"name": "Kuwaiti Dinar",
+"symbol_native": "د.ك.‏",
+"decimal_digits": 3,
+"rounding": 0,
+"code": "KWD",
+"conversion_rate": "Kuwaiti dinars"
+
+"symbol": "KZT",
+"name": "Kazakhstani Tenge",
+"symbol_native": "тңг.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "KZT",
+"conversion_rate": "Kazakhstani tenges"
+
+"symbol": "LB£",
+"name": "Lebanese Pound",
+"symbol_native": "ل.ل.‏",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "LBP",
+"conversion_rate": "Lebanese pounds"
+
+"symbol": "SLRs",
+"name": "Sri Lankan Rupee",
+"symbol_native": "SL Re",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "LKR",
+"conversion_rate": "Sri Lankan rupees"
+
+"symbol": "Lt",
+"name": "Lithuanian Litas",
+"symbol_native": "Lt",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "LTL",
+"conversion_rate": "Lithuanian litai"
+
+"symbol": "Ls",
+"name": "Latvian Lats",
+"symbol_native": "Ls",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "LVL",
+"conversion_rate": "Latvian lati"
+
+"symbol": "LD",
+"name": "Libyan Dinar",
+"symbol_native": "د.ل.‏",
+"decimal_digits": 3,
+"rounding": 0,
+"code": "LYD",
+"conversion_rate": "Libyan dinars"
+
+"symbol": "MAD",
+"name": "Moroccan Dirham",
+"symbol_native": "د.م.‏",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MAD",
+"conversion_rate": "Moroccan dirhams"
+
+"symbol": "MDL",
+"name": "Moldovan Leu",
+"symbol_native": "MDL",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MDL",
+"conversion_rate": "Moldovan lei"
+
+"symbol": "MGA",
+"name": "Malagasy Ariary",
+"symbol_native": "MGA",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "MGA",
+"conversion_rate": "Malagasy Ariaries"
+
+"symbol": "MKD",
+"name": "Macedonian Denar",
+"symbol_native": "MKD",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MKD",
+"conversion_rate": "Macedonian denari"
+
+"symbol": "MMK",
+"name": "Myanma Kyat",
+"symbol_native": "K",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "MMK",
+"conversion_rate": "Myanma kyats"
+
+"symbol": "MOP$",
+"name": "Macanese Pataca",
+"symbol_native": "MOP$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MOP",
+"conversion_rate": "Macanese patacas"
+
+"symbol": "MURs",
+"name": "Mauritian Rupee",
+"symbol_native": "MURs",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "MUR",
+"conversion_rate": "Mauritian rupees"
+
+"symbol": "MX$",
+"name": "Mexican Peso",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MXN",
+"conversion_rate": "Mexican pesos"
+
+"symbol": "RM",
+"name": "Malaysian Ringgit",
+"symbol_native": "RM",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MYR",
+"conversion_rate": "Malaysian ringgits"
+
+"symbol": "MTn",
+"name": "Mozambican Metical",
+"symbol_native": "MTn",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "MZN",
+"conversion_rate": "Mozambican meticals"
+
+"symbol": "N$",
+"name": "Namibian Dollar",
+"symbol_native": "N$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "NAD",
+"conversion_rate": "Namibian dollars"
+
+"symbol": "₦",
+"name": "Nigerian Naira",
+"symbol_native": "₦",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "NGN",
+"conversion_rate": "Nigerian nairas"
+
+"symbol": "C$",
+"name": "Nicaraguan Córdoba",
+"symbol_native": "C$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "NIO",
+"conversion_rate": "Nicaraguan córdobas"
+
+"symbol": "Nkr",
+"name": "Norwegian Krone",
+"symbol_native": "kr",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "NOK",
+"conversion_rate": "Norwegian kroner"
+
+"symbol": "NPRs",
+"name": "Nepalese Rupee",
+"symbol_native": "नेरू",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "NPR",
+"conversion_rate": "Nepalese rupees"
+
+"symbol": "NZ$",
+"name": "New Zealand Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "NZD",
+"conversion_rate": "New Zealand dollars"
+
+"symbol": "OMR",
+"name": "Omani Rial",
+"symbol_native": "ر.ع.‏",
+"decimal_digits": 3,
+"rounding": 0,
+"code": "OMR",
+"conversion_rate": "Omani rials"
+
+"symbol": "B/.",
+"name": "Panamanian Balboa",
+"symbol_native": "B/.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "PAB",
+"conversion_rate": "Panamanian balboas"
+
+"symbol": "S/.",
+"name": "Peruvian Nuevo Sol",
+"symbol_native": "S/.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "PEN",
+"conversion_rate": "Peruvian nuevos soles"
+
+"symbol": "₱",
+"name": "Philippine Peso",
+"symbol_native": "₱",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "PHP",
+"conversion_rate": "Philippine pesos"
+
+"symbol": "PKRs",
+"name": "Pakistani Rupee",
+"symbol_native": "₨",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "PKR",
+"conversion_rate": "Pakistani rupees"
+
+"symbol": "zł",
+"name": "Polish Zloty",
+"symbol_native": "zł",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "PLN",
+"conversion_rate": "Polish zlotys"
+
+"symbol": "₲",
+"name": "Paraguayan Guarani",
+"symbol_native": "₲",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "PYG",
+"conversion_rate": "Paraguayan guaranis"
+
+"symbol": "QR",
+"name": "Qatari Rial",
+"symbol_native": "ر.ق.‏",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "QAR",
+"conversion_rate": "Qatari rials"
+
+"symbol": "RON",
+"name": "Romanian Leu",
+"symbol_native": "RON",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "RON",
+"conversion_rate": "Romanian lei"
+
+"symbol": "din.",
+"name": "Serbian Dinar",
+"symbol_native": "дин.",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "RSD",
+"conversion_rate": "Serbian dinars"
+
+"symbol": "RUB",
+"name": "Russian Ruble",
+"symbol_native": "руб.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "RUB",
+"conversion_rate": "Russian rubles"
+
+"symbol": "RWF",
+"name": "Rwandan Franc",
+"symbol_native": "FR",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "RWF",
+"conversion_rate": "Rwandan francs"
+
+"symbol": "SR",
+"name": "Saudi Riyal",
+"symbol_native": "ر.س.‏",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "SAR",
+"conversion_rate": "Saudi riyals"
+
+"symbol": "SDG",
+"name": "Sudanese Pound",
+"symbol_native": "SDG",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "SDG",
+"conversion_rate": "Sudanese pounds"
+
+"symbol": "Skr",
+"name": "Swedish Krona",
+"symbol_native": "kr",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "SEK",
+"conversion_rate": "Swedish kronor"
+
+"symbol": "S$",
+"name": "Singapore Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "SGD",
+"conversion_rate": "Singapore dollars"
+
+"symbol": "Ssh",
+"name": "Somali Shilling",
+"symbol_native": "Ssh",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "SOS",
+"conversion_rate": "Somali shillings"
+
+"symbol": "SY£",
+"name": "Syrian Pound",
+"symbol_native": "ل.س.‏",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "SYP",
+"conversion_rate": "Syrian pounds"
+
+"symbol": "฿",
+"name": "Thai Baht",
+"symbol_native": "฿",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "THB",
+"conversion_rate": "Thai baht"
+
+"symbol": "DT",
+"name": "Tunisian Dinar",
+"symbol_native": "د.ت.‏",
+"decimal_digits": 3,
+"rounding": 0,
+"code": "TND",
+"conversion_rate": "Tunisian dinars"
+
+"symbol": "T$",
+"name": "Tongan Paʻanga",
+"symbol_native": "T$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "TOP",
+"conversion_rate": "Tongan paʻanga"
+
+"symbol": "TL",
+"name": "Turkish Lira",
+"symbol_native": "TL",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "TRY",
+"conversion_rate": "Turkish Lira"
+
+"symbol": "TT$",
+"name": "Trinidad and Tobago Dollar",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "TTD",
+"conversion_rate": "Trinidad and Tobago dollars"
+
+"symbol": "NT$",
+"name": "New Taiwan Dollar",
+"symbol_native": "NT$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "TWD",
+"conversion_rate": "New Taiwan dollars"
+
+"symbol": "TSh",
+"name": "Tanzanian Shilling",
+"symbol_native": "TSh",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "TZS",
+"conversion_rate": "Tanzanian shillings"
+
+"symbol": "₴",
+"name": "Ukrainian Hryvnia",
+"symbol_native": "₴",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "UAH",
+"conversion_rate": "Ukrainian hryvnias"
+
+"symbol": "USh",
+"name": "Ugandan Shilling",
+"symbol_native": "USh",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "UGX",
+"conversion_rate": "Ugandan shillings"
+
+"symbol": "$U",
+"name": "Uruguayan Peso",
+"symbol_native": "$",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "UYU",
+"conversion_rate": "Uruguayan pesos"
+
+"symbol": "UZS",
+"name": "Uzbekistan Som",
+"symbol_native": "UZS",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "UZS",
+"conversion_rate": "Uzbekistan som"
+
+"symbol": "Bs.F.",
+"name": "Venezuelan Bolívar",
+"symbol_native": "Bs.F.",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "VEF",
+"conversion_rate": "Venezuelan bolívars"
+
+"symbol": "₫",
+"name": "Vietnamese Dong",
+"symbol_native": "₫",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "VND",
+"conversion_rate": "Vietnamese dong"
+
+"symbol": "FCFA",
+"name": "CFA Franc BEAC",
+"symbol_native": "FCFA",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "XAF",
+"conversion_rate": "CFA francs BEAC"
+
+"symbol": "CFA",
+"name": "CFA Franc BCEAO",
+"symbol_native": "CFA",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "XOF",
+"conversion_rate": "CFA francs BCEAO"
+
+"symbol": "YR",
+"name": "Yemeni Rial",
+"symbol_native": "ر.ي.‏",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "YER",
+"conversion_rate": "Yemeni rials"
+
+"symbol": "R",
+"name": "South African Rand",
+"symbol_native": "R",
+"decimal_digits": 2,
+"rounding": 0,
+"code": "ZAR",
+"conversion_rate": "South African rand"
+
+"symbol": "ZK",
+"name": "Zambian Kwacha",
+"symbol_native": "ZK",
+"decimal_digits": 0,
+"rounding": 0,
+"code": "ZMK",
+"conversion_rate": "Zambian kwachas"

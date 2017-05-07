@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+.welcome {
+    font-size: 30px;
+}
+
+.hidden-class{
+    display: none;
+}
+
+
+#converted-value{
+    margin-top: 70px;
+}
+
+#amount_cv{
+    font-size: 35px;
+}
