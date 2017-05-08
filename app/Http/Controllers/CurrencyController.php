@@ -143,8 +143,10 @@ class CurrencyController extends Controller
     public function toggleCurrencyConversionById($id,$status){
         Log::info($this->logFormat.' user going to set '.$status.' for currency Id '.$id);
         try{
-            Currency::where('id', $id)
-                     ->update(['status' => $status,'updated_at'=>date('Y-m-d h:i:s')]); 
+            $res = Currency::find($id);
+            $res->status = $status;
+            $res->updated_at = date('Y-m-d h:i:s');
+            $res->save();
             Log::info($this->logFormat.' user successfully set '. $status.'for currency Id '.$id);
             return Redirect::to('currency-list');
         }catch(\Exception $e){

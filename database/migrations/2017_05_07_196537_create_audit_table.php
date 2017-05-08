@@ -16,6 +16,7 @@ class CreateAuditTable extends Migration
             $table->increments('id');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
+            $table->integer('table_primary_id')->unsigned()->nullable();
             $table->string('table_name')->nullable();
             $table->text('old_values')->nullable();
             $table->text('new_values')->nullable();
