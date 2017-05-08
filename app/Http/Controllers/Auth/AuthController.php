@@ -87,6 +87,8 @@ class AuthController extends Controller
                         'password' => bcrypt($input['password']),
                     ]);
             Log::info($this->logFormat.' New user got succelly created for email '.$input['email']);
+            Session::flash('message', 'Successfully got Registered ..!!..Please Log In');
+            Session::flash('alert-class', 'alert-success'); 
             return Redirect::to('/login');        
         }catch(\Exception $e){
             Log::info($this->logFormat.' Exception ocuured while creating user record for email '.$input['email'].' reason'.print_r($e->getMessage(),true));
@@ -119,6 +121,7 @@ class AuthController extends Controller
         }else{
             Log::info($this->logFormat.' some problem occured while logging for email '.$input['email']);
             Session::flash('message', 'The email/password combination is not valid ..!');
+            Session::flash('alert-class', 'alert-danger'); 
             return redirect('/login');
         }
     }

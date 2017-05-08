@@ -8,7 +8,7 @@
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
                     @if(Session::has('message'))
-                        <p class="alert-danger">{{ Session::get('message') }}</p>
+                        <p class="{{ Session::get('alert-class') }}">{{ Session::get('message') }}</p>
                     @endif
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/authenticate') }}">
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
