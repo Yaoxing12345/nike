@@ -26,9 +26,11 @@ class CurrencyController extends Controller
 
     public function __construct(){
         $this->middleware('auth', ['except' => 'logout']);
-        $user = Auth::user();
-        $userId =  $user->id;
-        $this->logFormat .= ' for user Id '.$userId;
+        if(Auth::check()){
+            $user = Auth::user();
+            $userId =  $user->id;
+            $this->logFormat .= ' for user Id '.$userId;    
+        }
     }
 
     

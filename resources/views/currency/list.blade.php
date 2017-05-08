@@ -26,7 +26,7 @@
                 @if($dataArr['status'] == 1)
                   <div class="td">
                     <a href="/currency-edit-form/<?php echo $dataArr['ID']; ?>">edit</a>
-                    <a href="/currency-toggle/{{ $dataArr['ID']}}/status/0" class = "confirm-delete">delete</a>
+                    <a href="/currency-toggle/{{ $dataArr['ID']}}/0" class = "confirm-delete">delete</a>
                   </div>
                 @else
                     <a href="/currency-toggle/{{ $dataArr['ID']}}/1" class = "confirm-delete">activate</a>

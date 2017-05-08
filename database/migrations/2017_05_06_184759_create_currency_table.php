@@ -18,6 +18,7 @@ class CreateCurrencyTable extends Migration
             $table->string('code')->unique();
             $table->string('symbol');
             $table->float('base_usd_amount')->nullable();
+            $table->boolean('status')->default(1);
             $table->timestamps();
         });
     }
